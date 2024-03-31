@@ -1,0 +1,6 @@
+project = "lcars_plugin_disk"
+version = 1
+author = "Frank Holler"
+
+[setup.run]
+disk = "%git%/lcars_plugin_disk/run/disk.py %base%"
